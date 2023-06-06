@@ -1,0 +1,136 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.mianav{
+    background-color:whitesmoke;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    padding: 20px;
+    text-align: center;
+}
+
+.miobottone{
+    text-decoration: none;
+    font-size: 18px;
+    font-family: 'Times New Roman', Times, serif ;
+    color: lightslategray;
+    margin: 10px;
+    transition: 0.5s;
+}
+
+.miobottone:hover{
+    border-bottom: 1px solid black;
+    color: black;
+}
+
+.miobottone-select{
+    text-decoration: none;
+    font-size: 18px;
+    font-family: 'Times New Roman', Times, serif ;
+    color: black !important;
+    padding: 10px;
+    border-bottom: solid 2px;
+}
+
+footer{
+    background-color: lightslategray;
+    height: 150px;
+}
+
+@media(max-width:680px){
+    footer{
+        display: flex;
+        flex-direction: row-reverse;
+        height: auto;
+        display:flex;
+    }
+}
+
+.dati{
+    color: white;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    line-height: 1.5;
+    font-size: 18px;
+    padding-top: 30px;
+}
+
+@media(max-width:680px){
+    .dati{
+        display: flex;
+        flex-direction: column;
+        font-size: 15px;
+        position: relative;
+    }
+}
+
+@media(max-width:820px){
+    .dati{
+        display: flex;
+        flex-direction: column;
+        font-size: 15px;
+        position: relative;
+        padding-top: 50px;
+    }
+}
+
+@media(max-width:1025px){
+    .dati{
+        display: flex;
+        flex-direction: column;
+        font-size: 15px;
+        position: relative;
+        padding-top: 50px;
+    }
+}
+
+.content-social{
+    position: absolute;
+    margin-top: 50px;
+    margin-left: 30%;
+}
+
+@media(max-width:680px){
+    .content-social{
+        display: flex;
+        flex-direction:row;
+        position: static;
+        margin-left: 50px;
+    }
+}
+
+@media(max-width:820px){
+    .content-social{
+        display: flex;
+        flex-direction:row;
+        position:absolute;
+        margin-left: 50px;
+    }
+}
+
+@media(max-width:1025px){
+    .content-social{
+        display: flex;
+        flex-direction:row;
+        position:absolute;
+        margin-left: 50px;
+    }
+}
+
+.social{
+    margin: 5px;
+}
+
+@media(max-width:680px){
+    .social{
+        height: 20px;
+        width: 20px;
+    }
+}
+
+

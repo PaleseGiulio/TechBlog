@@ -1,0 +1,104 @@
+body{
+    background-image: url(/img/background.jpg);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+header{
+    width: 50%;
+    background-color: rgba(245, 245, 245, 0.501);
+    margin-top: 90px;
+    margin-bottom: 30px;
+    animation-name: entrata;
+    animation-duration:1s;
+    animation-direction:normal;
+    animation-timing-function:linear;
+}
+
+@keyframes entrata{
+    from{transform:translateX(100%)}
+    to{transform:translateX(0%)}
+}
+
+.prodotto{
+    border-bottom: 1px solid  pink;
+    margin-bottom: 100px;
+}
+
+h1{
+    color: pink;
+    background-color: whitesmoke;
+    margin-left: auto;
+    margin-right: auto;
+    padding:10px;
+    font-size: 40px;
+    max-width: 400px;
+    text-align: center;
+    border: solid 1px pink;
+    border-radius: 10px;
+}
+
+h2{
+    color: pink;
+    font-family: 'Michroma', sans-serif;
+    text-align: center;
+    font-size: 25px;
+    padding: 10px;
+    max-width: 300px;
+    border-radius: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: whitesmoke;
+}
+
+.descrizione{
+    text-align: center;
+    color: lightslategray;
+    font-size:20px;
+    border-radius: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: whitesmoke;
+    width: 70%;
+}
+
+.catalogo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.lista-prodotto{
+    list-style: none;
+    max-width: 600px;
+}
+
+.foto-prodotto{
+    max-width: 600px;
+    border: solid 1px pink;
+    border-radius: 15px;
+}
+
+.content{
+    display: flex;
+    justify-content: center;
+    align-items: end;
+}
+
+.visita{
+    position: absolute;
+    font-size: 30px;
+    padding: 5px;
+    border-radius: 5px;
+    text-decoration: none;
+    color:white;
+    background-color: pink;
+    transition: 0.5s;
+}
+
+.visita:hover{
+    background-color: dodgerblue;
+    color: white;
+}
